@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/**************************************************
+* Tag
+**************************************************/
+main {
+  background-color: #6ad6b2;
+}
+
+p {
+  margin: 0;
+}
+/**************************************************
+* Layout
+**************************************************/
+
+/************** Header **************/
+
+
+/************** Main **************/
+._p-main {
+  padding: 155px 0;
+}
+
+#box-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.box {
+  min-height: 20px;
+  border: 1px solid black;
+  /* width: 10%;
+  height: 10%; */
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._click-blue {
+  background-color: #6495ed;
+  color: white;
+}
+
+._bomba {
+  background-color: #ff2d2d;
+}
+/************** Footer **************/
+footer h4 {
+  font-size: 16px;
+  padding-top: 25px;
+}
